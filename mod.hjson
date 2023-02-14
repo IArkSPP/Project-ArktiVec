@@ -1,1 +1,6 @@
-
+displayName: "Project Arktivec [Beta]"
+name: "Arktivec"
+author: "Arkanic and More"
+version: "v0.1-Beta"
+minGameVersion: 141.2
+repo: IArkSPP/Project-Arktivec
