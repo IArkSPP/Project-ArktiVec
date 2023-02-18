@@ -1,0 +1,10 @@
+name: Cobalt
+description: This is cobalt!! 
+cost: 1.5
+hardness: 4
+radioactivity: 0.9
+charge: 0.5
+color: "3A4466FF"
+category: molybdenum
+research: copper
+alwaysUnlocked: false
