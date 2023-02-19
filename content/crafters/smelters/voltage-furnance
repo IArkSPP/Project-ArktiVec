@@ -29,7 +29,7 @@ consumes: {
   }
 }
 outputItem: molybdenum/2
-category: crafting
+category: crafters
 research: copper
 requirements: [
   copper/100
