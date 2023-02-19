@@ -1,0 +1,38 @@
+type: GenericCrafter
+name:voltage furnace
+description: Un crisol de alta temperatura con la capacidad de producir elementos con electricidad ''Requiere refrigerante''
+size: 3
+drawer: {
+  type: drawMulti
+  drawers: [
+{
+type: DrawFlame
+color: ffcea3
+}
+  ]
+}
+itemCapacity: 125
+flameColor: ffceb5
+updateEffectChance: 0.2
+craftTime: 300
+consumes: {
+  power: 1
+  liquids: {
+  liquid: [
+       water: 1
+       {
+       ]
+  items: {
+    items: [
+      scrap/5
+    ]
+  }
+}
+outputItem: molybdenum/2
+category: crafting
+research: copper
+requirements: [
+  copper/100
+  silicon/100
+  lead/100
+]
