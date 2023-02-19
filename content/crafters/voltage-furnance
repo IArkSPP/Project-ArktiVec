@@ -1,33 +1,37 @@
-type: GenericCrafter
-name:voltage furnace
-description: Un crisol de alta temperatura con la capacidad de producir elementos con electricidad.
+
+name: Steam boiler
+description: Extrae molibdeno de la chatarra con ayuda de agua y vapor
+type: HeatCrafter
 size: 3
-drawer: {
-  type: drawMulti
-  drawers: [
-{
-type: DrawFlame
-color: ffcea3
-}
-  ]
-}
-itemCapacity: 125
-flameColor: ffceb5
-updateEffectChance: 0.2
-craftTime: 300
+heatRequirement: 3
+overheatScale: 3
+maxEfficiency: 1
+hasItems: true
+hasLiquids: true
+liquidCapacity: 100
+itemCapacity: 20
+  craftTime: 300
+craftEffect: vapor
+updateEffect: vapor
 consumes: {
-  power: 1
-  items: {
-    items: [
-      scrap/5
-    ]
-  }
+  liquids: {
+    liquid: water
+    amount: 0.2
+    }
+   items: {
+   item: [
+   scrap/5
 }
-outputItem: molybdenum/2
-category: crafters
-research: copper
+]
+    },
 requirements: [
-  copper/150
-  silicon/80
-  lead/100
+silicon/60
+graphite/80
+titanium/50
+],
+category: crafting
+research: 
+outputItems:
+[
+  molybdenum/2
 ]
