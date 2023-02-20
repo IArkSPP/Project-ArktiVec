@@ -1,1 +1,13 @@
+name: SubZero
+description: ta frio
+cost: 2.0
+hardness: 3
+charge: 2.5
+explosiveness: 1
+color: "00FFB2CC"
+category: subzero
+research: surge-alloy
+alwaysUnlocked: false
 
+//aqui tamos chambeando para que el admin no se empute :D
+//maldita sea porque no se podia hacer en Kotlin :'v
