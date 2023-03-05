@@ -1,0 +1,45 @@
+type: GenericSmelter
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 48
+craftEffect: {
+  type: ParticleEffect
+  length: 6
+  lifetime: 15
+  colorTo: 5261a3
+}
+updateEffect: {
+  type: ParticleEffect
+  length: 0.01
+  particles: 2
+  line: true
+  lifetime: 5
+  lenFrom: 5
+  lenTo: 5
+  strokeFrom: 1
+  strokeTo: 1
+  colorTo: 5261a3
+}
+consumes: {
+  power: 5.0
+  items: {
+    items: [
+      surge-alloy/2
+      titanium/2
+      silicon/2
+    ]
+  }
+}
+requirements: [
+  copper/125
+  silicon/150
+  surge-alloy/50
+  molybdenum/25
+]
+category: crafting
+research: 
+ambientSound: respawn
+ambientSoundVolume: 1
+outputItem: bluewolframite/1
